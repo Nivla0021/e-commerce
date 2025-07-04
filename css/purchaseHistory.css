@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 80px;
+}
+
+
+.purchase-history {
+    max-width: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.action-buttons {
+    display: flex;
+
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    border-bottom: 1px solid #ddd;
+}
+
+.card .details {
+    padding: 15px;
+}
+
+.card .product-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card .product-price {
+    color: #333;
+}
+
+.card .quantity {
+    margin-top: 5px;
+    color: #666;
+}
+
+.card .action-buttons {
+    margin-top: 15px;
+}
+
+.buy-again-btn,
+.write-review-btn {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 40px;
+    background-color: rgb(81, 138, 139);
+    transition: background-color 0.3s ease;
+}
+
+.buy-again-btn:hover,
+.write-review-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+.serchbar,
+.search_icon {
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content3 {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    position: relative;
+}
+
+.modal-content3 h2 {
+    margin-bottom: 15px;
+}
+
+.modal-content3 .form-group {
+    margin-bottom: 15px;
+}
+
+.modal-content3 label {
+    display: block;
+    font-weight: bold;
+}
+
+.modal-content3 input[type="number"],
+.modal-content3 textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.modal-content3 button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.modal-content3 button:hover {
+    background-color: #0056b3;
+}
+
+/* Close button for modal */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+#reviewProductImage {
+    width: 250px;
+}

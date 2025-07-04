@@ -1,0 +1,70 @@
+.inp {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sbmt {
+    background-color: rgb(81, 138, 139);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.sbmt:hover {
+    background-color: #45a049;
+}
+
+.details {
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.serchbar,
+.search_icon {
+    display: none;
+}
+
+.pass-container {
+    position: relative;
+    display: inline-block;
+
+    width: 500px;
+}
+
+.toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+  
+}
+
+.pass {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.pass:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+}

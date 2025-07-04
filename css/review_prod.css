@@ -1,0 +1,79 @@
+.modal-content3 {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: 30%;
+    margin-top: 80px;
+}
+
+.modal-content3 h2 {
+    margin-bottom: 15px;
+}
+
+.modal-content3 .form-group {
+    margin-bottom: 15px;
+}
+
+.modal-content3 label {
+    display: block;
+    font-weight: bold;
+}
+
+.modal-content3 input[type="number"],
+.modal-content3 textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.modal-content3 button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.modal-content3 button:hover {
+    background-color: #0056b3;
+}
+
+/* Close button for modal */
+#reviewProductImage {
+    height: 200px;
+}
+
+.serchbar,
+.search_icon {
+    display: none;
+}
+
+.subt-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subt-btn:hover {
+    background-color: #0056b3;
+
+}
+
+.subt-btn:focus {
+    outline: none;
+
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+
+}
